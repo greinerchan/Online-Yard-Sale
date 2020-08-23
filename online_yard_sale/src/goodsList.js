@@ -1,9 +1,9 @@
 const goodsList = [
     {
       id: 1,
-      name: "macbook-2020",
+      name: "macbook",
       imgURL:
-        "https://cdn.pocket-lint.com/r/s/970x/assets/images/152137-laptops-review-apple-macbook-pro-2020-review-image1-qy49zfkn53-jpg.webp",
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       price: "$899",
       Specifications: ""
     },
@@ -11,7 +11,7 @@ const goodsList = [
       id: 2,
       name: "iphone x",
       imgURL:
-        "https://img.letgo.com/images/98/eb/4b/6c/98eb4b6ccfb5ec8e617debf7ca9dfb82.jpg?impolicy=img_600",
+        "https://images.unsplash.com/photo-1510297182321-a75bdc5b1299?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       price: "$499",
       Specifications: ""
     },
@@ -19,55 +19,55 @@ const goodsList = [
       id: 3,
       name: "knife",
       imgURL:
-        "https://cdn.cutleryandmore.com/products/large/29097.jpg",
+        "https://images.unsplash.com/photo-1544965838-54ef8406f868?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       price: "$20",
       Specifications: ""
     },
     {
       id: 4,
-      name: "macbook-2020",
+      name: "toys",
       imgURL:
-        "https://lh3.googleusercontent.com/proxy/1qKUNF9lSem4VrKo8Jisw2WBnpIjTfUF2PecJU8gBUeUuG9yoxFWCjlV03Yh4JLCo5xjZgGpU1dr8wq6RQzAJshqKNgKBAGymM8mJcdyBdsbkPweCvG6JMM",
+        "https://images.unsplash.com/photo-1545558014-8692077e9b5c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
       price: "$49",
       Specifications: ""
     },
     {
       id: 5,
-      name: "used guess watches",
+      name: "guess watches",
       imgURL:
-        "https://di2ponv0v5otw.cloudfront.net/posts/2018/10/24/5bd154ac34a4efef0d5415ad/m_5bd154b4c617774f21896bfa.jpg",
+        "https://images.unsplash.com/photo-1534277448999-989742a033af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       price: "$55",
       Specifications: ""
     },
     {
       id: 6,
-      name: "used TV",
+      name: "TV",
       imgURL:
-        "https://buy-sellelectronics.com/shop/wp-content/uploads/2018/12/20181212_104306-e1544642232340.jpg",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       price: "$199",
       Specifications: ""
     },
     {
       id: 7,
-      name: "old computer",
+      name: "computer",
       imgURL:
-        "https://expertpcadvice.com/images/used.jpg",
-      price: "Free",
+        "https://images.unsplash.com/photo-1554921027-b91f0beeb07d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+      price: "$2000",
       Specifications: ""
     },
     {
       id: 8,
-      name: "used printer",
+      name: "printer",
       imgURL:
-        "https://buy-sellelectronics.com/shop/wp-content/uploads/2018/08/20180811_140701-e1534014992601.jpg",
+        "https://images.unsplash.com/photo-1593444285799-a96c1ade7057?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       price: "$10",
       Specifications: ""
     },
     {
       id: 9,
-      name: "used Ipad",
+      name: "ipad",
       imgURL:
-        "https://di2ponv0v5otw.cloudfront.net/posts/2019/07/11/5d2763b4138e18ebe82c0279/m_5d2763de969d1fb3d795ce68.jpg",
+        "https://images.unsplash.com/photo-1548082575-7af4dd7bfa2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
       price: "$99",
       Specifications: ""
     },
