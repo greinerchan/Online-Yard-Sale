@@ -4,7 +4,7 @@
 
   (1) go to online_yard_sale directory in terminal (where pakege.json locate)
 
-  ![Image](https://https://github.com/greinerchan/Online-Yard-Sale/blob/master/online_yard_sale/src/img/yarnStart.png)
+  ![Image](https://github.com/greinerchan/Online-Yard-Sale/blob/master/online_yard_sale/src/img/yarnStart.png?raw=true)
 
 
   (2) yarn start (need install yarn first if not have)
