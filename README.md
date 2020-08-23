@@ -1,5 +1,7 @@
 # Online-Yard-Sale
 
+github: https://github.com/greinerchan/Online-Yard-Sale
+
 1 Start the Website:
 
   (1) go to online_yard_sale directory in terminal (where pakege.json locate)
