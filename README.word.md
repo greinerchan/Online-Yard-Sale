@@ -2,6 +2,8 @@
 
 1 Start the Website:
 
+   yarn install
+
    yarn start
 
 2 technical specifications:
