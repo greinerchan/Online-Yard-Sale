@@ -2,9 +2,9 @@
 
 1 Start the Website:
 
-   yarn install
+  (1) go to online_yard_sale directory in terminal (where pakege.json locate)
 
-   yarn start
+  (2) yarn start (need install yarn first if not have)
 
 2 technical specifications:
 
@@ -14,30 +14,30 @@ HTML, CSS, React, JavaScript
 
 HTML
 
-* Have at least 3 pages, keep the grid system consistent as much as possible ?
-* Use at least 10 different HTML tags ?
-* Use HTML tables ?
-* Implement at least two uses for forms ?
-* Dropped Down Menu ?
-* Use web fonts ?
-* Use different types of content in the form of text, images, videos, and GIFs ?
-* Use regex validation ?
+* Have at least 3 pages, keep the grid system consistent as much as possible (completed)
+* Use at least 10 different HTML tags (completed)
+* Use HTML tables (completed)
+* Implement at least two uses for forms (completed)
+* Dropped Down Menu (completed)
+* Use web fonts (completed)
+* Use different types of content in the form of text, images, videos, and GIFs (completed)
+* Use regex validation (completed)
 
 
 CSS 
 
-* Inline, internal, and external styling ?
-* Use five different CSS selectors ?
-* Don’t use too many fonts ?
-* Use colors that complement each other ?
-* Use Flexbox (Optional) ?
+* Inline, internal, and external styling (completed)
+* Use five different CSS selectors (completed)
+* Don’t use too many fonts (completed)
+* Use colors that complement each other (completed)
+* Use Flexbox (Optional) (completed)
 * Use SASS/SCSS (Optional)
 * Use animations (Optional)
 
 JavaScript
 
-* External scripts ?
-* Use variables, if statements, loops, at least one form of collections, functions/call back, and events ?
+* External scripts (completed)
+* Use variables, if statements, loops, at least one form of collections, functions/call back, and events (completed)
 * Use AJAX (Optional) 
 * Use JSON or XML (Optional)
 * Use JQuery (Optional)
