@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        .login {
+            text-align: center;
+            font-family: "Arial";
+            font-size: "20";
+            color: red;
+            background-color: lightgray;
+            width: 340px;
+            border-width: 6px;
+            border-style: inset;
+            border-color: lightcoral;
+            height: 160px;
+            margin: 220px auto;
+        }
+    </style>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="login">
+        <h3>Log In Yard Sale</h3>
+        <br>
+        <form class="form" method="post" action="http://localhost:3000/" id="loginForm">
+            <div class="main">
+                <table>
+                    <tr>
+                        <td><label for="mail">E-mail :</label></td>
+                        <td><input type="text" id="mail" size="28" value="" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="key">Password : </label></td>
+                        <td><input type="text" id="key" size="28" value="" /></td>
+                    </tr>
+                </table>
+                <br><br>
+                <div class="button">
+                    <input type="button" id="btn-login" name="Submit" style="width:90px;height:25px;"
+                        value="Submit" /></a>
+                    <a href="register.html"><input type="button" name="Register" style="width:90px;height:25px;"
+                            value="Register " /></a>
+                    <a href="login.html"><input type="button" name="Login" style="width:90px;height:25px;"
+                            value="Login" /></a></div>
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="script/script.js"></script>
+</body>
+
+</html>

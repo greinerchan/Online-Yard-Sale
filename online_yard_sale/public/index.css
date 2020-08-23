@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+    height:100%;
+    width:100%;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  body {
+    background: #eee;
+  }
+  
+  .top{
+    position: fixed;
+    height:100%;
+    width:100%;
+  }
+
+
+  /* this section is for navbar */
+
+  .navbar > header {
+    display: inline;
+  }
+  
+  .navbar > header > h1 {
+      color: #fff;
+      font-family: "McLaren", cursive;
+      font-weight: 200;
+      display: inline-block;
+      padding-right: 300px;
+  }
+
+  .navbar > .nav-contents > a {
+    display: inline-block;
+    padding: 0 40px 0 40px;
+    font-size: larger;
+    text-decoration: none;
+    color: #efefef;
+  }
+
+  .navbar > .nav-contents > a:nth-child(5) {
+    padding: 0 40px 0 40px;
+  }
+
+  .navbar > .nav-contents > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  /* navbar ending */
+
+  /* this section for the footer, copyright */
+  
+  footer {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
+
+  .navbar {
+    background-color: #eb4034;
+    padding: 8px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+
+/* footer ending */
+
+
+
+/* this section is for searching box */
+  .searchbar {
+    padding-top: 0.2em;
+    height: 2.5em;
+    text-align: left;
+    vertical-align: middle;
+    background-color:gray;
+  }
+
+  .allsort {
+    position: relative;
+    z-index: 100;
+    float: left;
+    width: 206px;
+    height: 25px;
+    padding: 6px 0 0 22px;
+  }
+  
+  .allsort a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ca5707
+  }
+
+  .searchbox {
+    position: relative;
+    z-index: 14;  
+    float: left;
+    margin-left: 28px;
+  }
+
+  .searchbox input {
+    display: inline;
+    vertical-align: middle;
+  }
+
+  .searchbox input.textInput {
+    margin-top: 4px;
+    padding: 0 5px 0 11px;
+    color: black;
+  }
+  
+  #searchButton{
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+  }
+  /* searching box end */
+
+  /* this section is for the content card */
+
+  .main_content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .main_content .sub_main{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .main_content .img{
+    background-color: #a5c5cc;
+    width: 100%;
+  }
+  
+  .main_content .img img{
+    width: 100%;
+    height: 300px;
+  }
+  
+  .main_content .main_items {
+    border: 1px solid black;
+    width: 320px;
+    height: 390px;
+    margin: 30px 20px;
+    border-radius: 5px;
+  }
+  
+  .main_content .main_items:hover{
+    box-shadow: 0px 0px 20px #becccf;
+  }
+  
+  .main_content .main_items .img_content {
+    padding: 10px;
+  }
+  
+  
+  .flex_container {
+    width: 60%;
+    height: 200px;
+    margin: 100px auto;
+    display: flex;
+    flex-flow: wrap row-reverse;
+    justify-content: space-around;
+    background-color: black;
+  }
+  
+  .flex_item {
+    background-color: beige;
+    width: 200px;
+    height: 100 px;
+    text-align: center;
+    font-size: 100px;
+  }
+
+  .cardBottom {
+    display: inline-block;
+  }
+
+  #btn {
+    display: inline-block;
+    padding: 1px;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    margin:0px 0px 0px 70px;
+    width: 100px;
+    height: 20px;
+  }
+
+  /* content part done */
+
+  /* register page */
+
+.register {
+	text-align: center;
+    font-family:"Arial";
+    font-size:"20";
+    color: red;
+    padding:0px;
+    margin:0px;  
+    background-color: lightgray;
+    width: 430px;
+    border-width: 6px;
+    border-style: inset;
+    border-color: lightcoral;
+	  height:230px;
+    margin: 200px auto;
+}
+
+/* login and register end */
+
+/* verify the name input */
+#first:not(:placeholder-shown):invalid {
+  box-shadow: 3px 3px 10px yellow;
+}
+
+#last:not(:placeholder-shown):invalid {
+  box-shadow: 3px 3px 10px yellow;
+}
+/* verify end */
