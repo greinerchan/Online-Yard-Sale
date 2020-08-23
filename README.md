@@ -9,7 +9,7 @@
 
   (2) yarn start (need install yarn first if not have)
 
-	![Image](https://github.com/greinerchan/Online-Yard-Sale/blob/master/online_yard_sale/src/img/startSuccess.png?raw=true)
+  ![Image](https://github.com/greinerchan/Online-Yard-Sale/blob/master/online_yard_sale/src/img/startSuccess.png?raw=true)
 
 2 technical specifications:
 
